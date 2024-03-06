@@ -2,7 +2,12 @@ package arrays;
 
 import java.util.Scanner;
 
-/* Longest Subarray with given Sum K(Positives) */
+/* Longest Sub Array with given Sum K(Positives)
+ * 
+ *  Input : [ 1,2,3,1,1,1,4,2,3 ]
+ *  Output : 3
+ * 
+ */
 
 public class LongestSubArrayOfSumK {
     public static void main(String[] args) {
