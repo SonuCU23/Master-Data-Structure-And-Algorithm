@@ -16,16 +16,6 @@ public class MaximumSubArraySum {
     }
 
     public static int maximumSubArraySum(int[] arr, int n){
-        // int maxSum = Integer.MIN_VALUE;
-        // for(int i = 0; i < n; i++){
-        //     int sum = 0;
-        //     for(int j = i; j < n; j++){
-        //         sum += arr[j];
-
-        //         maxSum = Math.max(maxSum, sum);
-        //     }
-        // }
-
        int csum = arr[0]; // current sum
        int osum = arr[0]; // overall sum
        for(int i = 1; i < n; i++){
