@@ -1,4 +1,4 @@
-package arrays;
+package arrays.Day2;
 
 public class MergerTwoSorted {
     public static void main(String[] args) {
